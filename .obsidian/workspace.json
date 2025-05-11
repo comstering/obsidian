@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Strat obsidian.md",
+                "file": "Today Scheduled Task.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Strat obsidian"
+              "title": "Today Scheduled Task"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Strat obsidian.md",
+                "file": "Today Scheduled Task.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Strat obsidian 의 백링크"
+              "title": "Today Scheduled Task 의 백링크"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Strat obsidian.md",
+                "file": "Today Scheduled Task.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Strat obsidian 의 나가는 링크"
+              "title": "Today Scheduled Task 의 나가는 링크"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Strat obsidian.md",
+                "file": "Today Scheduled Task.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Strat obsidian 의 개요"
+              "title": "Today Scheduled Task 의 개요"
             }
           },
           {
@@ -180,9 +180,25 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "c29e9826e2fd64ec",
+  "active": "640c00d8d1ae92da",
   "lastOpenFiles": [
     "Strat obsidian.md",
+    "Everyday history/2025-05-11.md",
+    "Private/To-do/To-do.md",
+    "Work/CJ Oliveyoung/Devops/Terraform Cloud CI.md",
+    "Work/CJ Oliveyoung",
+    "Today Scheduled Task.md",
+    "Private/To-do/지인추천.md",
+    "Private/직원 추천.md",
+    "Private/To-do/전세자금 대출 비교.md",
+    "Private/전세자금대출.md",
+    "Private/To-do",
+    "Work/CJ Oliveyoung/Platform",
+    "Work/Devops.md",
+    "Work/CJ Oliveyoung/Devops",
+    "Private",
+    "Work",
+    "Everyday history",
     "무제 1.md",
     "git/gui.md",
     "git",
