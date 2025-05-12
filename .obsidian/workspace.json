@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "96fb28aca8b8c1ba",
+        "id": "843f865aa5494b79",
         "type": "tabs",
         "children": [
           {
-            "id": "c29e9826e2fd64ec",
+            "id": "85794fbf2693b920",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Today Scheduled Task.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Today Scheduled Task"
+              "title": "새 탭"
             }
           }
         ]
@@ -94,7 +90,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Today Scheduled Task.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +99,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Today Scheduled Task 의 백링크"
+              "title": "백링크"
             }
           },
           {
@@ -113,12 +108,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Today Scheduled Task.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Today Scheduled Task 의 나가는 링크"
+              "title": "나가는 링크"
             }
           },
           {
@@ -142,13 +136,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Today Scheduled Task.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Today Scheduled Task 의 개요"
+              "title": "개요"
             }
           },
           {
@@ -159,6 +152,16 @@
               "state": {},
               "icon": "git-pull-request",
               "title": "Source Control"
+            }
+          },
+          {
+            "id": "44304dd3a797424a",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
             }
           }
         ],
@@ -180,17 +183,24 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "640c00d8d1ae92da",
+  "active": "7cb7717590242d74",
   "lastOpenFiles": [
     "Strat obsidian.md",
-    "Everyday history/2025-05-11.md",
-    "Private/To-do/To-do.md",
-    "Work/CJ Oliveyoung/Devops/Terraform Cloud CI.md",
-    "Work/CJ Oliveyoung",
+    "Everyday history/Notes/Istio L7 Network Policy.md",
+    "Everyday history/2025-05-12.md",
+    "Everyday history/Notes",
+    "Everyday history/2025-05-12.canvas",
     "Today Scheduled Task.md",
+    "무제.md",
+    "Everyday history/무제.md",
+    "Everyday history/무제.canvas",
+    "Everyday history/2025-05-11.md",
+    "Work/CJ Oliveyoung/Devops/Terraform Cloud CICD.md",
+    "Private/To-do/To-do.md",
     "Private/To-do/지인추천.md",
-    "Private/직원 추천.md",
     "Private/To-do/전세자금 대출 비교.md",
+    "Work/CJ Oliveyoung",
+    "Private/직원 추천.md",
     "Private/전세자금대출.md",
     "Private/To-do",
     "Work/CJ Oliveyoung/Platform",
