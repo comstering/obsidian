@@ -1,20 +1,24 @@
 {
   "main": {
-    "id": "cf0c68d865fa820b",
+    "id": "c28f327ce790bec7",
     "type": "split",
     "children": [
       {
-        "id": "843f865aa5494b79",
+        "id": "b95b440e2500d10d",
         "type": "tabs",
         "children": [
           {
-            "id": "85794fbf2693b920",
+            "id": "184f1a178a1fafc9",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Private/To-do/전세자금 대출 비교.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "새 탭"
+              "title": "전세자금 대출 비교"
             }
           }
         ]
@@ -23,15 +27,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "178e8127a4d64685",
+    "id": "d88e3cf5d170dbc6",
     "type": "split",
     "children": [
       {
-        "id": "caeacb2253d41292",
+        "id": "d8c8ac78b02bcd5f",
         "type": "tabs",
         "children": [
           {
-            "id": "640c00d8d1ae92da",
+            "id": "e2bf11eca23be10a",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -40,11 +44,11 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "파일 탐색기"
+              "title": "Files"
             }
           },
           {
-            "id": "72e166e567cff801",
+            "id": "c642bfe8260eda68",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -57,17 +61,17 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
-              "title": "검색"
+              "title": "Search"
             }
           },
           {
-            "id": "f01df1ebfe32a4ab",
+            "id": "268d389ddaac597d",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
               "state": {},
               "icon": "lucide-bookmark",
-              "title": "북마크"
+              "title": "Bookmarks"
             }
           }
         ]
@@ -77,19 +81,20 @@
     "width": 300
   },
   "right": {
-    "id": "2c8d9e2c4dcd8c30",
+    "id": "4536ce3414e464be",
     "type": "split",
     "children": [
       {
-        "id": "a0f4123b6afb4c27",
+        "id": "f72fc62775f0a3b7",
         "type": "tabs",
         "children": [
           {
-            "id": "96030d90091e6a28",
+            "id": "3a84a6d9ff98cc77",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Welcome.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,24 +104,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "백링크"
+              "title": "Backlinks for Welcome"
             }
           },
           {
-            "id": "f9b3025e198548a9",
+            "id": "c15781ba29826ea2",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Welcome.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "나가는 링크"
+              "title": "Outgoing links from Welcome"
             }
           },
           {
-            "id": "1cb311f7ffc532d1",
+            "id": "1568fa9decbf20f4",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -127,25 +133,26 @@
                 "searchQuery": ""
               },
               "icon": "lucide-tags",
-              "title": "태그"
+              "title": "Tags"
             }
           },
           {
-            "id": "8a90480cd81529ed",
+            "id": "8f2cdc7c30c80102",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
+                "file": "Welcome.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "개요"
+              "title": "Outline of Welcome"
             }
           },
           {
-            "id": "7cb7717590242d74",
+            "id": "9a2cbd0cb864b895",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -155,7 +162,7 @@
             }
           },
           {
-            "id": "44304dd3a797424a",
+            "id": "de1513e4a54d1752",
             "type": "leaf",
             "state": {
               "type": "calendar",
@@ -173,46 +180,37 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:빠른 전환기 열기": false,
-      "graph:그래프 뷰 열기": false,
-      "canvas:새 캔버스 만들기": false,
-      "daily-notes:오늘의 일일 노트 열기": false,
-      "templates:템플릿 삽입": false,
-      "command-palette:명령어 팔레트 열기": false,
-      "obsidian-git:Open Git source control": false,
-      "obsidian-excalidraw-plugin:New drawing": false
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7cb7717590242d74",
+  "active": "184f1a178a1fafc9",
   "lastOpenFiles": [
-    "Strat obsidian.md",
-    "Everyday history/Notes/Istio L7 Network Policy.md",
-    "Everyday history/2025-05-12.md",
-    "Everyday history/Notes",
-    "Everyday history/2025-05-12.canvas",
+    "Everyday history/2025-05-13.md",
     "Today Scheduled Task.md",
-    "무제.md",
-    "Everyday history/무제.md",
-    "Everyday history/무제.canvas",
-    "Everyday history/2025-05-11.md",
+    "Strat obsidian.md",
     "Work/CJ Oliveyoung/Devops/Terraform Cloud CICD.md",
-    "Private/To-do/To-do.md",
-    "Private/To-do/지인추천.md",
+    "Welcome.md",
+    "Everyday history/2025-05-12.md",
+    "Everyday history/Notes/datahub DB user.md",
+    "Everyday history/Notes/Istio L7 Network Policy.md",
     "Private/To-do/전세자금 대출 비교.md",
-    "Work/CJ Oliveyoung",
-    "Private/직원 추천.md",
-    "Private/전세자금대출.md",
-    "Private/To-do",
-    "Work/CJ Oliveyoung/Platform",
-    "Work/Devops.md",
+    "Everyday history/Notes",
+    "Work/CJ Oliveyoung/Devops/Terraform Cloud CI.md",
     "Work/CJ Oliveyoung/Devops",
-    "Private",
+    "Work/CJ Oliveyoung",
     "Work",
-    "Everyday history",
-    "무제 1.md",
-    "git/gui.md",
-    "git",
-    "create a link.md",
-    "환영합니다!.md"
+    "Private/To-do/지인추천.md",
+    "Private/To-do/To-do.md",
+    "Private/To-do",
+    "Private",
+    "Everyday history/2025-05-11.md",
+    "Everyday history"
   ]
 }
