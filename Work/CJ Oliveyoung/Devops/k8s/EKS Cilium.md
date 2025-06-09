@@ -21,9 +21,22 @@ VPC CNI는 iptables 방식의 네트워킹을 사용하는데 이 iptables 방�
 	- dasfs
 - ELB -> Pod
 	- iptables를 통한 통신이 아닌 ELB에서의 direct 통신
+### Cilium CNI
+- eBPF
+- Pod <-> Pod
+	- 실질적으로 대부분의 통신은 Pod <-> Pod 통신이 주를 이룸
+	- Service를 LoadBalancer, NodePort로 노출하는 것이 아니라 Ingress 혹은 Gateway api를 통해서 ingress Pod or Gateway pod -> Cluster IP Service -> Service Pod로 통신
+	- ELB -> Gateway Pod -> Service Pod
 ## Install Cilium in EKS
-
-
+### Remove VPC CNI
+- Remove addon
+	- vpc-cni
+	- kube-proxy
+- Delete aws-node service & aws-node deployment
+	- vpc-cni는 addon만 제거한다고 해서 k8s상에서 삭제되지 않음
+	- 직접 k8s에 접속해서 aws-node에 대한 service/deployment를 삭제해줘야됨
+### Install Cilium Helm chart
+- 
 
 
 
