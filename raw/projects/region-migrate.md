@@ -1,4 +1,7 @@
 ---
+type: worklog
+confidential: internal
+tags: [project]
 company: CJ Oliveyoung
 start-date: 2024-12-17
 end-date:

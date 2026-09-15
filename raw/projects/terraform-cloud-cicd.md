@@ -1,4 +1,7 @@
 ---
+type: worklog
+confidential: internal
+tags: [project]
 company: CJ Oliveyoung
 Start Date: 
 End Date:

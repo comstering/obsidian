@@ -1,3 +1,9 @@
+---
+type: worklog
+confidential: internal
+tags: [kafka]
+---
+
 front-end, gms, mae, mce는 모두 java, spring 기반 서비스라서 SASL_SSL, AWS_MSK_IAM 인증방식 가능...
 
 문제는 datahub-actions인데

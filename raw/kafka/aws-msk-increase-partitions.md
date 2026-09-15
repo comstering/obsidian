@@ -1,3 +1,8 @@
+---
+type: worklog
+confidential: internal
+tags: [kafka]
+---
 
 ### Using Apache kafka native tool
 

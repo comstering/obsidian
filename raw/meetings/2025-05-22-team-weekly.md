@@ -1,3 +1,9 @@
+---
+type: meeting
+date: 2025-05-22
+confidential: internal
+tags: [meeting]
+---
 
 ## Code Convention
 

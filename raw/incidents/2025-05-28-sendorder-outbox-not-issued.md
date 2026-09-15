@@ -1,3 +1,10 @@
+---
+type: worklog
+date: 2025-05-28
+confidential: internal
+tags: [incident]
+---
+
 ## What Happened
 1. 25.05.27 14:30 주문 전송 Batch 이후 Batch에서 outbox에 발행한 event 미발행
 

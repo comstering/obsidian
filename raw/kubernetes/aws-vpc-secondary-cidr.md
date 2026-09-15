@@ -1,3 +1,8 @@
+---
+type: worklog
+confidential: internal
+tags: [k8s]
+---
 
 https://docs.aws.amazon.com/ko_kr/eks/latest/best-practices/custom-networking.html
 

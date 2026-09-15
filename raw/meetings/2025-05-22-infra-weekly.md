@@ -1,3 +1,9 @@
+---
+type: meeting
+date: 2025-05-22
+confidential: internal
+tags: [meeting]
+---
 
 ## EKS Control Plane Loggin
 - ISMS 인터뷰할 때 Lens를 통한 접근에 대해서 문의가 들어왔음(from. 여인보님)

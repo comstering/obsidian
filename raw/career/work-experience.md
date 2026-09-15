@@ -1,3 +1,8 @@
+---
+type: worklog
+confidential: internal
+tags: [career]
+---
 
 ```dataview
 table company, start-date, end-date

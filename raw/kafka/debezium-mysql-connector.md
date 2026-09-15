@@ -1,3 +1,9 @@
+---
+type: worklog
+confidential: internal
+tags: [kafka]
+---
+
 https://debezium.io/documentation/reference/3.0/connectors/mysql.html
 
 

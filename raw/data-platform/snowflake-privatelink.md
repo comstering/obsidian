@@ -1,3 +1,8 @@
+---
+type: worklog
+confidential: internal
+tags: [data-platform]
+---
 
 ## Context
 현재 snowflake와의 통신을 NAT Gateway을 통해서 public network로 통신 중

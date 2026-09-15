@@ -1,3 +1,8 @@
+---
+type: worklog
+confidential: internal
+tags: [k8s]
+---
 
 #### RequestAuthentication
 - https://istio.io/latest/docs/reference/config/security/request_authentication/

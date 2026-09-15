@@ -1,3 +1,8 @@
+---
+type: worklog
+confidential: internal
+tags: [k8s]
+---
 
 ## What is Cilium
 Cilium은 Docker 및 Kubernetes와 같은 Linux 컨테이너 관리 플랫폼을 사용하여 배포된 애플리케이션 서비스 간의 네트워크 연결을 투명하게 보호하기 위한 오픈 소스 소프트웨어입니다.

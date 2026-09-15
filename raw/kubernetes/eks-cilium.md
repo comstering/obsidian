@@ -1,3 +1,9 @@
+---
+type: worklog
+confidential: internal
+tags: [k8s]
+---
+
 ## VPC CNI vs. Cilium CNI
 EKS에서는 기본적으로 VPC CNI를 사용한다.
 VPC CNI는 iptables 방식의 네트워킹을 사용하는데 이 iptables 방식은 pod수가 늘어나면 늘어날 수록 부하가 증가하면 latency가 지속적으로 증가한다.
