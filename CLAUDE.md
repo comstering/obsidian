@@ -23,6 +23,7 @@ hansu의 개인 지식베이스. 주제는 한정하지 않는다 (엔지니어�
 raw/                  불변 소스 계층
 ├─ journal/           내 일지.  YYYY-MM-DD.md
 ├─ meetings/          회의록 · 1on1 · weekly
+├─ sessions/          Claude Code 세션 자동 요약. YYYY-MM-DD.md  ← git 제외
 └─ <topic>/           그 외. 주제별 자유 (외부 자료와 주제별 작업 기록)
 
 wiki/                 에이전트 전용 정제 계층
@@ -90,8 +91,14 @@ tags: []
 |---|---|---|
 | `journal` | 날짜 단위 일지 | `raw/journal/2025-05-20.md` |
 | `meeting` | 회의록 · 1on1 · weekly | `raw/meetings/2025-05-20-1on1.md` |
-| `worklog` | 주제별 내 작업 기록. 날짜 축이 아님 | `raw/k8s/eks-cilium.md` |
-| `source` | 외부에서 가져온 것 | `raw/k8s/2026-09-15-cilium-docs.md` |
+| `worklog` | 주제별 내 작업 기록. 날짜 축이 아님 | `raw/kubernetes/eks-cilium.md` |
+| `source` | 외부에서 가져온 것 | `raw/blog/install-cilium-eks.md` |
+| `session` | Claude Code 세션 자동 요약 | `raw/sessions/2026-11-16.md` |
+
+**`session`은 근거 강도가 가장 낮다.** 사람이 쓴 게 아니라 **대화를 기계가 요약한 2차 가공물**이고,
+요약 과정에서 왜곡될 수 있다. wiki 문서가 `session` 근거만 갖고 있으면
+"세션 기록에 따르면" 수준으로 쓰고, 확정적으로 단정하지 않는다.
+journal·worklog·source 근거가 있으면 그쪽을 우선한다.
 
 외부 자료(`type: source`)는 frontmatter 아래에 스킬의 `references/raw-template.md`
 blockquote(Source/Collected/Published)를 그대로 붙인다.
@@ -224,6 +231,33 @@ thumbnail: "eks-cilium.png"
 - 한글 파일명
 
 `python3 .agents/skills/karpathy-llm-wiki/scripts/check_evidence.py .` — 읽기 전용, 근거 검증용.
+
+---
+
+## Session Digest — 하루치 대화 자동 요약
+
+추출 스크립트: `python3 .claude/scripts/session-digest.py [YYYY-MM-DD]`
+→ 그날 세션들의 제목·repo·브랜치·턴수·사용자 프롬프트를 JSON으로 뱉는다.
+**스크립트는 요약하지 않는다.** 기계가 할 수 있는 추출까지만 하고, 요약은 에이전트가 한다.
+
+출력: `raw/sessions/YYYY-MM-DD.md`
+
+### 규칙
+
+- 이 vault 자신의 세션은 제외한다 (재귀 방지). 스크립트에 하드코딩되어 있다
+- resume로 갈라진 jsonl은 `(project, title)` 로 합친다
+- 세션마다 **무엇을 하려 했나 / 무엇이 나왔나 / 남은 것** 을 적는다
+- 각 세션에 **KB 후보 여부와 이유**를 판정해 붙인다. 이게 다음 인제스트의 입력이 된다
+- 턴이 0이거나 내용이 없는 세션은 개수만 세고 본문에서 뺀다
+- `confidential: secret` 고정. 사내 repo 작업이 그대로 들어온다
+
+### 🔒 git 제외
+
+`raw/sessions/` 는 `.gitignore` 에 있다. 이 저장소는 공개 remote로 자동 백업되는데
+세션 요약에는 사내 repo·티켓·엔드포인트가 그대로 들어오기 때문이다.
+**이 디렉토리를 커밋 대상으로 되돌리려면 공개 repo 건을 먼저 정리해야 한다.**
+
+세션 요약을 근거로 wiki 문서를 쓸 때도 사내 식별자를 그대로 옮기지 않는다.
 
 ---
 

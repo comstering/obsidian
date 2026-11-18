@@ -86,3 +86,26 @@
 - 출력: ~/Side/comstering.github.io/posts/istio-jwt-authentication.md
 - 원본: wiki/kubernetes/istio-jwt-authentication.md
 - 내부 호스트명·realm·리소스명을 placeholder로 치환 (confidential: internal -> public)
+
+## [2026-11-18] ingest | Keycloak 26.8.2 Admin API audience 검사와 Terraform provider 인증 실패
+- Disposition: New
+- Raw: raw/sessions/2026-11-12.md
+- 근거가 세션 요약뿐이라 status: draft. 실제 적용 여부 미기록
+
+## [2026-11-18] ingest | Keycloak IdP 첫 로그인 시 기존 사용자 자동 연결
+- Disposition: New
+- Raw: raw/sessions/2026-11-13.md
+- 세션 응답이 잘려 flow 구성 상세는 근거 미비 블록으로 표시
+
+## [2026-11-18] ingest | 중앙 클러스터 하나의 Kiali로 멀티 클러스터 보기
+- Disposition: New
+- Raw: raw/sessions/2026-11-17.md
+
+## [2026-11-18] ingest | SSL 검사 프록시 환경에서 AWS CLI 인증서 오류
+- Disposition: New
+- Raw: raw/sessions/2026-11-17.md
+- 프록시 제품명은 일반화해서 제외
+
+## [2026-11-18] ingest | no material: raw/sessions/2026-11-12.md (Infrastructure / K8s repo 온보딩 문서)
+- Disposition: No material
+- 사내 repo 구조라 공개 remote로 백업되는 wiki에 올리지 않음. 원본은 사내 Confluence

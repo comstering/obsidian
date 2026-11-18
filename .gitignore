@@ -1,3 +1,7 @@
 .obsidian/
 .DS_Store
 .claude/settings.local.json
+
+# 세션 요약 — 사내 작업 전부가 들어온다. 공개 remote로 내보내지 않는다.
+# 공개 repo 건이 정리되면 이 줄을 지우고 커밋 여부를 다시 정한다.
+raw/sessions/
